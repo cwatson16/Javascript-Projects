@@ -9,7 +9,7 @@ function additionFunction() {
 
 function subtractionFunction() {
     var subtraction = 20 - 10;
-    document.getElementById("Minus").innerHTML = "20 - 10 = " + subtraction;
+    document.getElementById("minus").innerHTML = "20 - 10 = " + subtraction;
 }
 
 //Function that multiplies 8 times 8 and displays it as 6 x 6 = 36//
