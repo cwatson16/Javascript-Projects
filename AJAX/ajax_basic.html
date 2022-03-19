@@ -16,11 +16,11 @@
             // Step 1: XML HttpRequest();object
             var ajax = new XMLHttpRequest();
 
-            // Step 2: Prepare the open ajax request
+            // Step 2: Prepares the open ajax request
             // opens content.html
             ajax.open('GET', 'content.html');
 
-            // Step 3: Define the ajax response Callback menthod
+            // Step 3: Define the ajax response callback method
             // function executes when the readyState changes
             ajax.onreadystatechange = function() {
                 if (ajax.readyState == 4) {
@@ -28,7 +28,7 @@
                 }
             }
 
-            // Step 4: Call on the ajax Send();
+            // Step 4: Calls on the ajax Send();
             // btn_content disappears when triggered
             function getContent() {
                 ajax.send();
