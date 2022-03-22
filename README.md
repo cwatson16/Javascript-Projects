@@ -1,2 +1,4 @@
-This is a repo for my Javascript Projects for the Tech Academy
+This is a repo for the Javascript Projects I built for the Tech Academy. 
+
+<h1>Projects</h1>
  
